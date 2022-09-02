@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
-    <title>Studio</title>
+    <title>Minimo</title>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,4 +18,81 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
+  <body>
+    <!-- Header -->
+    <div class="container">
+    <header class="header">      
+        <nav class="nav">
+          <a href="./index.html" class="web">minimø</a>
+          <ul class="nav__menu">
+            <li class="menu__item"><a class="menu__link">lifestyle</a></li>
+            <li class="menu__item"><a class="menu__link">photodiary</a></li>
+            <li class="menu__item"><a class="menu__link">music</a></li>
+            <li class="menu__item"><a class="menu__link">travel</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Hero -->
+      <div class="container">
+        <div class="hero" > 
+          <div class="img"><picture class="hero__img">
+              <source media="(min-width: 1200px)" srcset="./images/cover_image.jpg 1x, ./images/cover_image@2x.jpg 2x"/>
+              <source media="(min-width: 768px)" srcset="./images/cover_image_t.jpg 1x, ./images/cover_image_t@2x.jpg 2x"/>
+              <source media="(min-width: 480px)" srcset="./images/cover_image_m.jpg 1x, ./images/cover_image_m@2x.jpg 2x"/>
+            
+            <img 
+            src="./images/cover_image.jpg"
+            alt="girls">
+          </picture>         
+          </div>         
+           <div class="hero__txt">
+            <h3 class="hero__low-title">photodiary</h3>
+            <h1 class="hero__title">The perfect weekend getaway </h1>
+            <p class="hero__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti repellendus eius tenetur atque culpa sunt rerum ea suscipit aperiam ab necessitatibus esse, voluptatem incidunt error, repellat quis voluptatibus impedit consectetur sint, dolorum quidem. Porro, maiores quaerat accusantium totam qui deserunt optio magnam fuga laboriosam cumque nulla ipsa numquam eos placeat, ipsum modi id veritatis, facere soluta odio. Accusantium commodi error voluptatum reiciendis ducimus incidunt, officia odit debitis illum excepturi, voluptatem rem eligendi ipsam expedita. Error possimus ut earum commodi quam pariatur, tenetur magnam in, omnis expedita ipsam dolorum! Mollitia rerum quasi animi neque excepturi dolor minima ad. Exercitationem, ullam itaque.</p>
+            <h3 class="hero__low-title">Leave a comment</h3>
+          </div>  
+        </div>
+      </div>
+        <!-- Posts -->
+      <div class="posts__container container">
+        <ul class="posts">
+          <li class="posts__item">
+            <picture class="posts__img"></picture>
+            <div class="post__box">
+              <h3></h3>
+              <h1></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et ratione alias aperiam assumenda, totam sit ad earum necessitatibus voluptatibus atque excepturi corrupti molestias beatae? Libero eveniet ex dolorem veritatis omnis ipsa voluptatum neque, consectetur beatae cum illum, id obcaecati.</p>
+            </div>
+          </li>
+          <li class="posts__item">
+            <picture class="posts__img"></picture>
+            <div class="post__box">
+              <h3></h3>
+              <h1></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et ratione alias aperiam assumenda, totam sit ad earum necessitatibus voluptatibus atque excepturi corrupti molestias beatae? Libero eveniet ex dolorem veritatis omnis ipsa voluptatum neque, consectetur beatae cum illum, id obcaecati.</p>
+            </div>
+          </li>
+          <li class="posts__item">
+            <picture class="posts__img"></picture>
+            <div class="post__box">
+              <h3></h3>
+              <h1></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et ratione alias aperiam assumenda, totam sit ad earum necessitatibus voluptatibus atque excepturi corrupti molestias beatae? Libero eveniet ex dolorem veritatis omnis ipsa voluptatum neque, consectetur beatae cum illum, id obcaecati.</p>
+            </div>
+          </li>
+          <li class="posts__item">
+            <picture class="posts__img"></picture>
+            <div class="post__box">
+              <h3></h3>
+              <h1></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et ratione alias aperiam assumenda, totam sit ad earum necessitatibus voluptatibus atque excepturi corrupti molestias beatae? Libero eveniet ex dolorem veritatis omnis ipsa voluptatum neque, consectetur beatae cum illum, id obcaecati.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+    </main>
+  </body>
 </html>
